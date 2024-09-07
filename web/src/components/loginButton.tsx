@@ -1,3 +1,5 @@
 export default function LoginButton() {
-  <a href="/api/auth/login">Login</a>
+  return (
+    <a href="/api/auth/login" className="px-4 py-2 rounded bg-cyan-400 text-white hover:font-bold">Login</a>
+  )
 }
